@@ -2,17 +2,6 @@ from selenium import webdriver
 import os
 from time import sleep
 
-json_respostas = {
-    "/help": {
-        "msg": "Olá, essa é uma resposta automatica.",
-        "media": "C:\\Users\\juan\\Downloads\\logo_oficial.png"
-    },
-    "/agenda": {
-        "msg": "Agenda de show",
-        "media": "C:\\Users\\juan\\Downloads\\logo_oficial.png"
-    },
-}
-
 
 class zapbot:
     # O local de execução do nosso script
